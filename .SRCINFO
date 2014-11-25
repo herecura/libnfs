@@ -1,14 +1,14 @@
 pkgbase = libnfs
 	pkgdesc = client library for accessing NFS shares
-	pkgver = 1.9.5
+	pkgver = 1.9.6
 	pkgrel = 1
 	url = https://github.com/sahlberg/libnfs
 	arch = i686
 	arch = x86_64
 	license = GPL
 	depends = glibc
-	source = https://github.com/sahlberg/libnfs/archive/libnfs-1.9.5.tar.gz
-	sha256sums = dd99ffa02a3d9fc936976e199614e0d0e2516bd27ead5639c063b8504008a393
+	source = https://github.com/sahlberg/libnfs/archive/libnfs-1.9.6.tar.gz
+	sha256sums = 75f49d967e9032e0ee4757f970f87c274c3503c968caba2be8a37df63d965f32
 
 pkgname = libnfs
 
