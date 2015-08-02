@@ -2,8 +2,8 @@
 # Maintainer: BlackIkeEagle <ike DOT devolder AT gmail DOT com>
 
 pkgname=libnfs
-pkgver=1.9.7
-pkgrel=2
+pkgver=1.9.8
+pkgrel=1
 pkgdesc="client library for accessing NFS shares"
 arch=('i686' 'x86_64')
 url="https://github.com/sahlberg/libnfs"
@@ -12,7 +12,7 @@ depends=('glibc')
 source=(
 	"https://github.com/sahlberg/$pkgname/archive/$pkgname-$pkgver.tar.gz"
 )
-sha256sums=('7c2e088f5fd85b791ab644a5221b717894208bc5fb8b8a5a49633802ecaa0990')
+sha256sums=('e95af693e763a504eee72dacf3dc6c1001d83e40b807e7e1d0be2eaf48af779c')
 
 #prepare() {
   #cd "$pkgname-$pkgname-$pkgver"
